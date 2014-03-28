@@ -18,7 +18,7 @@ GIT
 
 GIT
   remote: git://github.com/neighborly/neighborly-balanced-bankaccount.git
-  revision: b2c359822f264d905f49bf52376e97c47c6f8da1
+  revision: 3de95847432c2bd5a2aa0ce4d233c8a7deef7860
   branch: master
   specs:
     neighborly-balanced-bankaccount (0.0.1)
@@ -303,6 +303,8 @@ GEM
       coderay (~> 1.0)
       method_source (~> 0.8)
       slop (~> 3.4)
+    pundit (0.2.2)
+      activesupport (>= 3.0.0)
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
     rack (1.5.2)
@@ -518,6 +520,7 @@ DEPENDENCIES
   postgres-copy
   protected_attributes (~> 1.0.5)
   pry
+  pundit (~> 0.2.2)
   quiet_assets
   rails (= 4.0.3)
   rails-observers (~> 0.1.2)
